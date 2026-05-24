@@ -1,0 +1,26 @@
+{
+  "name": "projectframework_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "DevChromeHeaded": "npx playwright test --project=dev --headed",
+    "DevChromeHeadless": "npx playwright test --project=dev",
+    "ProdChromeheaded": "npx playwright test --project=dev --headed",
+    "ProdChromeHeadless": "npx playwright test --project=dev",
+    "test:dev": "ENV=dev npx playwright test DashboardPage.spec.js",
+    "test:stage": "ENV=stage npx playwright test DashboardPage.spec.js",
+    "test:prod": "ENV=prod npx playwright test DashboardPage.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
