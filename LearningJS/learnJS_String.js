@@ -198,14 +198,27 @@ largestSubString()
 
 
 // Find the longest word in a sentence
+function longestWordInSentence() {
+  const sentence = 'Find the longest word in a sentence';
+  const words = sentence.split(' ');
+  let longest = '';
+  for (const word of words) {
+    if (word.length > longest.length) {
+      longest = word;
+    }
+  }
+  console.log('Longest word:', longest);
+}
+longestWordInSentence()
 
 // Check if a string is a valid password (at least 8 characters, including uppercase, lowercase, and a number)
-// Find the longest substring that is a palindrome in a string
-// Check if a string is a valid MAC address
-// Find the longest common subsequence between two strings
-// Generate a random alphanumeric string of a given length
-// Check if a string is a valid UUID
-// Find the longest substring that contains at most two distinct characters in a string
-// Generate a random binary string of a given length
-// Check if a string is a valid postal code (ZIP code)
-// Find the longest substring that contains at most three distinct characters in a string
+function isValidPassword(str) {
+  const hasUpperCase = /[A-Z]/.test(str);
+  const hasLowerCase = /[a-z]/.test(str);
+  const hasNumber = /\d/.test(str);
+  return str.length >= 8 && hasUpperCase && hasLowerCase && hasNumber;
+}
+console.log(isValidPassword("Password123")); // Output: true
+console.log(isValidPassword("password123")); // Output: false
+
+
