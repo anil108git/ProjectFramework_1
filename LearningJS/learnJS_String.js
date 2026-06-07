@@ -222,3 +222,20 @@ console.log(isValidPassword("Password123")); // Output: true
 console.log(isValidPassword("password123")); // Output: false
 
 
+//======================================
+// Common Interview Programs
+// Reverse a String
+// Count Vowels
+// Remove Vowels
+// Count Words
+// Count Character Frequency
+// Remove Duplicate Characters
+// Check Palindrome
+// Find Longest Word
+// Check Anagram
+// Reverse Each Word in Sentence
+// Find First Non-Repeated Character
+// Capitalize First Letter of Each Word
+// String Compression (aaabbc → a3b2c1)
+// Count Occurrences of Character
+// Validate Email Using Regex
