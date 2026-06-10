@@ -1,22 +1,27 @@
 
-// A java script object can also have function in itself
-const person = {
-    name: 'Anil',
-    age: 30,
-    greet: function() {
-        console.log('Hello my name is: '+this.name);
+// Remove Duplicates
+function removeDublicate(str) {
+    const text = str.toLowerCase();
+    let noDuplicate = '';
+    for(let i =0; i< text.length; i++) {
+        if(!noDuplicate.includes(text[i])) {
+            noDuplicate += text[i];
+        }
     }
+    return noDuplicate;
 }
-// person.greet();
+console.log(removeDublicate('AAnil'));
 
-// iterete over the array `
-let arrayName = [3, 5,8,5,2,9,7];
-const arrayName1 = ['Apple', 'Orange', 'Banana', 'Milk'];
-arrayName1.forEach((name, index) => {
-    console.log(`Name of the fruit is: ${name}`);
-})
-console.log(`------------------------------------------------`);
-console.log(`Log 1`);
-console.log(`Log 2`);
-console.log(`Log 3`);
-console.log(`Log 4`);
+
+// Missing Number In Array
+function missingnumber(arr, n) {
+    const expectedNumber = n*(n+1)/2;
+    const actualNumber = arr.reduce((sum, item) => sum+item, 0);
+    return expectedNumber-actualNumber;
+}
+
+const arr = [1,2,4,5];
+const arrSize = 5;
+console.log(missingnumber(arr, arrSize));
+
+

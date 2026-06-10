@@ -359,22 +359,20 @@ try/catch
 TOP 20 INTERVIEW PROGRAMS
 =========================
 
-1. Reverse String
-2. Palindrome String
-3. Anagram Check
-4. Count Vowels
-5. Character Frequency
-6. Reverse Number
-7. Prime Number
+1. Reverse String          -- Done
+2. Palindrome String      --Done
+4. Count Vowels        --Done
+5. Character Frequency    --Done
+6. Reverse Number     --Done
+7. Prime Number    --Done
 8. Factorial
 9. Fibonacci
-10. Armstrong Number
 11. Palindrome Number
 12. Largest Array Element
 13. Second Largest Element
-14. Remove Duplicates
+14. Remove Duplicates     --Done
 15. Move Zeros To End
-16. Missing Number In Array
+16. Missing Number In Array -- Done
 17. Array Rotation
 18. Flatten Nested Array
 19. Object Deep Copy
