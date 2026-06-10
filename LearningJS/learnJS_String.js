@@ -120,7 +120,7 @@ function validPalindromeMethod2() {
 }
 validPalindromeMethod2()
 
-// Check if a string is a valid URL
+  // Check if a string is a valid URL
 function isValidURL(str) {
   try {
     new URL(str);
