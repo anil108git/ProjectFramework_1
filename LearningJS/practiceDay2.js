@@ -70,6 +70,3 @@ function removewhiteSpace() {
 removewhiteSpace();
 
 // Find the longest substring without repeating characters
-// added new line lcoal
-// line 74 added by ankur
-// my changes
