@@ -35,3 +35,5 @@ function countVowels(str) {
     return { count, withoutVowels };
 }
 console.log(countVowels('Hello World'));
+
+// added from git
